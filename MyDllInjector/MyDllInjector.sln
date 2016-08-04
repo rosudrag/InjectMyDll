@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InjectorConsoleApp", "InjectorConsoleApp\InjectorConsoleApp.csproj", "{20EDE689-2599-4A7F-A1C8-D3631D7A9B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllToInject", "DllToInject\DllToInject.csproj", "{9D3388DE-23D9-45CA-A111-5A781D95066A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InjectionHelpers", "InjectionHelper\InjectionHelpers.csproj", "{8EFAFF53-54C6-4571-AB9C-5C71DFD8FE8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20EDE689-2599-4A7F-A1C8-D3631D7A9B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20EDE689-2599-4A7F-A1C8-D3631D7A9B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20EDE689-2599-4A7F-A1C8-D3631D7A9B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20EDE689-2599-4A7F-A1C8-D3631D7A9B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3388DE-23D9-45CA-A111-5A781D95066A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3388DE-23D9-45CA-A111-5A781D95066A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3388DE-23D9-45CA-A111-5A781D95066A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3388DE-23D9-45CA-A111-5A781D95066A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFAFF53-54C6-4571-AB9C-5C71DFD8FE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFAFF53-54C6-4571-AB9C-5C71DFD8FE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFAFF53-54C6-4571-AB9C-5C71DFD8FE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFAFF53-54C6-4571-AB9C-5C71DFD8FE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
